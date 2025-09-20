@@ -1,0 +1,3396 @@
+[
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 186,
+    "origin": "PNQ",
+    "availableSeats": 116,
+    "destination": "DEL",
+    "price": 6733,
+    "departure": "2025-01-01T10:59:00.000Z",
+    "arrival": "2025-01-01T13:32:00.000Z",
+    "duration": "2h 33m",
+    "operationalDays": [
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 502,
+    "origin": "DEL",
+    "availableSeats": 107,
+    "destination": "BLR",
+    "price": 5130,
+    "departure": "2025-09-20T12:53:00Z",
+    "arrival": "2025-09-20T15:15:00Z",
+    "duration": "2h 22m",
+    "operationalDays": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 451,
+    "origin": "BOM",
+    "availableSeats": 68,
+    "destination": "HYD",
+    "price": 7174,
+    "departure": "2025-09-20T10:54:00Z",
+    "arrival": "2025-09-20T12:34:00Z",
+    "duration": "1h 40m",
+    "operationalDays": [
+      0,
+      4,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 709,
+    "origin": "HYD",
+    "availableSeats": 90,
+    "destination": "PNQ",
+    "price": 5845,
+    "departure": "2025-09-20T21:52:00Z",
+    "arrival": "2025-09-21T00:21:00Z",
+    "duration": "2h 29m",
+    "operationalDays": [
+      2,
+      0,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 752,
+    "origin": "DEL",
+    "availableSeats": 21,
+    "destination": "PNQ",
+    "price": 4550,
+    "departure": "2025-09-20T12:16:00Z",
+    "arrival": "2025-09-20T13:54:00Z",
+    "duration": "1h 38m",
+    "operationalDays": [
+      5,
+      6,
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 998,
+    "origin": "DEL",
+    "availableSeats": 68,
+    "destination": "BOM",
+    "price": 6887,
+    "departure": "2025-09-20T01:19:00Z",
+    "arrival": "2025-09-20T04:14:00Z",
+    "duration": "2h 55m",
+    "operationalDays": [
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 900,
+    "origin": "BOM",
+    "availableSeats": 125,
+    "destination": "BLR",
+    "price": 7407,
+    "departure": "2025-09-20T14:49:00Z",
+    "arrival": "2025-09-20T16:42:00Z",
+    "duration": "1h 53m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 756,
+    "origin": "PNQ",
+    "availableSeats": 142,
+    "destination": "DEL",
+    "price": 3442,
+    "departure": "2025-09-20T01:02:00Z",
+    "arrival": "2025-09-20T03:11:00Z",
+    "duration": "2h 9m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 392,
+    "origin": "PNQ",
+    "availableSeats": 38,
+    "destination": "DEL",
+    "price": 4683,
+    "departure": "2025-09-20T20:35:00Z",
+    "arrival": "2025-09-20T23:52:00Z",
+    "duration": "3h 17m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 725,
+    "origin": "BLR",
+    "availableSeats": 21,
+    "destination": "BOM",
+    "price": 4379,
+    "departure": "2025-09-20T22:23:00Z",
+    "arrival": "2025-09-21T00:19:00Z",
+    "duration": "1h 56m",
+    "operationalDays": [
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 723,
+    "origin": "BLR",
+    "availableSeats": 123,
+    "destination": "DEL",
+    "price": 2807,
+    "departure": "2025-09-20T07:42:00Z",
+    "arrival": "2025-09-20T09:16:00Z",
+    "duration": "1h 34m",
+    "operationalDays": [
+      2,
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 947,
+    "origin": "BLR",
+    "availableSeats": 109,
+    "destination": "BOM",
+    "price": 10958,
+    "departure": "2025-09-21T02:17:00Z",
+    "arrival": "2025-09-21T05:07:00Z",
+    "duration": "2h 50m",
+    "operationalDays": [
+      5,
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 300,
+    "origin": "HYD",
+    "availableSeats": 65,
+    "destination": "PNQ",
+    "price": 11542,
+    "departure": "2025-09-21T07:12:00Z",
+    "arrival": "2025-09-21T09:09:00Z",
+    "duration": "1h 57m",
+    "operationalDays": [
+      3,
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 350,
+    "origin": "HYD",
+    "availableSeats": 148,
+    "destination": "DEL",
+    "price": 8433,
+    "departure": "2025-09-21T02:55:00Z",
+    "arrival": "2025-09-21T05:14:00Z",
+    "duration": "2h 19m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 201,
+    "origin": "HYD",
+    "availableSeats": 120,
+    "destination": "BOM",
+    "price": 6638,
+    "departure": "2025-09-21T06:36:00Z",
+    "arrival": "2025-09-21T08:21:00Z",
+    "duration": "1h 45m",
+    "operationalDays": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 381,
+    "origin": "BLR",
+    "availableSeats": 66,
+    "destination": "PNQ",
+    "price": 3639,
+    "departure": "2025-09-21T05:30:00Z",
+    "arrival": "2025-09-21T07:58:00Z",
+    "duration": "2h 28m",
+    "operationalDays": [
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 156,
+    "origin": "BLR",
+    "availableSeats": 22,
+    "destination": "DEL",
+    "price": 7959,
+    "departure": "2025-09-21T03:51:00Z",
+    "arrival": "2025-09-21T05:35:00Z",
+    "duration": "1h 44m",
+    "operationalDays": [
+      0,
+      4
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 750,
+    "origin": "BOM",
+    "availableSeats": 20,
+    "destination": "DEL",
+    "price": 7364,
+    "departure": "2025-09-21T10:23:00Z",
+    "arrival": "2025-09-21T12:27:00Z",
+    "duration": "2h 4m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 772,
+    "origin": "BLR",
+    "availableSeats": 87,
+    "destination": "DEL",
+    "price": 3274,
+    "departure": "2025-09-21T17:25:00Z",
+    "arrival": "2025-09-21T20:00:00Z",
+    "duration": "2h 35m",
+    "operationalDays": [
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 161,
+    "origin": "PNQ",
+    "availableSeats": 68,
+    "destination": "HYD",
+    "price": 3963,
+    "departure": "2025-09-21T20:50:00Z",
+    "arrival": "2025-09-21T23:08:00Z",
+    "duration": "2h 18m",
+    "operationalDays": [
+      0,
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 431,
+    "origin": "DEL",
+    "availableSeats": 78,
+    "destination": "BOM",
+    "price": 3387,
+    "departure": "2025-09-21T20:42:00Z",
+    "arrival": "2025-09-21T22:22:00Z",
+    "duration": "1h 40m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 559,
+    "origin": "HYD",
+    "availableSeats": 68,
+    "destination": "PNQ",
+    "price": 7788,
+    "departure": "2025-09-22T18:34:00Z",
+    "arrival": "2025-09-22T20:08:00Z",
+    "duration": "1h 34m",
+    "operationalDays": [
+      5,
+      0,
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 379,
+    "origin": "DEL",
+    "availableSeats": 113,
+    "destination": "PNQ",
+    "price": 4818,
+    "departure": "2025-09-22T03:02:00Z",
+    "arrival": "2025-09-22T05:29:00Z",
+    "duration": "2h 27m",
+    "operationalDays": [
+      3,
+      6,
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 731,
+    "origin": "PNQ",
+    "availableSeats": 22,
+    "destination": "DEL",
+    "price": 3205,
+    "departure": "2025-09-22T13:29:00Z",
+    "arrival": "2025-09-22T15:56:00Z",
+    "duration": "2h 27m",
+    "operationalDays": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 231,
+    "origin": "BOM",
+    "availableSeats": 31,
+    "destination": "BLR",
+    "price": 9193,
+    "departure": "2025-09-22T12:45:00Z",
+    "arrival": "2025-09-22T16:05:00Z",
+    "duration": "3h 20m",
+    "operationalDays": [
+      1,
+      6,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 169,
+    "origin": "HYD",
+    "availableSeats": 137,
+    "destination": "BLR",
+    "price": 11864,
+    "departure": "2025-09-22T22:34:00Z",
+    "arrival": "2025-09-23T00:26:00Z",
+    "duration": "1h 52m",
+    "operationalDays": [
+      1,
+      4,
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 126,
+    "origin": "PNQ",
+    "availableSeats": 98,
+    "destination": "HYD",
+    "price": 8203,
+    "departure": "2025-09-22T18:06:00Z",
+    "arrival": "2025-09-22T21:08:00Z",
+    "duration": "3h 2m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 382,
+    "origin": "DEL",
+    "availableSeats": 30,
+    "destination": "BOM",
+    "price": 9180,
+    "departure": "2025-09-22T02:21:00Z",
+    "arrival": "2025-09-22T04:11:00Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      6,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 959,
+    "origin": "DEL",
+    "availableSeats": 83,
+    "destination": "BLR",
+    "price": 8283,
+    "departure": "2025-09-22T15:58:00Z",
+    "arrival": "2025-09-22T17:29:00Z",
+    "duration": "1h 31m",
+    "operationalDays": [
+      6,
+      0,
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 175,
+    "origin": "DEL",
+    "availableSeats": 58,
+    "destination": "PNQ",
+    "price": 8480,
+    "departure": "2025-09-22T06:02:00Z",
+    "arrival": "2025-09-22T07:57:00Z",
+    "duration": "1h 55m",
+    "operationalDays": [
+      4,
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 919,
+    "origin": "BOM",
+    "availableSeats": 60,
+    "destination": "HYD",
+    "price": 7002,
+    "departure": "2025-09-22T23:09:00Z",
+    "arrival": "2025-09-23T01:47:00Z",
+    "duration": "2h 38m",
+    "operationalDays": [
+      4,
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 885,
+    "origin": "DEL",
+    "availableSeats": 104,
+    "destination": "BOM",
+    "price": 7754,
+    "departure": "2025-09-23T13:16:00Z",
+    "arrival": "2025-09-23T16:08:00Z",
+    "duration": "2h 52m",
+    "operationalDays": [
+      0,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 357,
+    "origin": "PNQ",
+    "availableSeats": 68,
+    "destination": "BOM",
+    "price": 5354,
+    "departure": "2025-09-23T22:58:00Z",
+    "arrival": "2025-09-24T01:28:00Z",
+    "duration": "2h 30m",
+    "operationalDays": [
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 802,
+    "origin": "BLR",
+    "availableSeats": 53,
+    "destination": "PNQ",
+    "price": 10985,
+    "departure": "2025-09-23T12:17:00Z",
+    "arrival": "2025-09-23T15:17:00Z",
+    "duration": "3h 0m",
+    "operationalDays": [
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 694,
+    "origin": "PNQ",
+    "availableSeats": 126,
+    "destination": "DEL",
+    "price": 10725,
+    "departure": "2025-09-23T21:23:00Z",
+    "arrival": "2025-09-24T00:00:00Z",
+    "duration": "2h 37m",
+    "operationalDays": [
+      6,
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 209,
+    "origin": "DEL",
+    "availableSeats": 13,
+    "destination": "BOM",
+    "price": 3573,
+    "departure": "2025-09-23T16:08:00Z",
+    "arrival": "2025-09-23T18:13:00Z",
+    "duration": "2h 5m",
+    "operationalDays": [
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 303,
+    "origin": "DEL",
+    "availableSeats": 59,
+    "destination": "HYD",
+    "price": 9075,
+    "departure": "2025-09-23T12:35:00Z",
+    "arrival": "2025-09-23T14:19:00Z",
+    "duration": "1h 44m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 466,
+    "origin": "BLR",
+    "availableSeats": 112,
+    "destination": "HYD",
+    "price": 7866,
+    "departure": "2025-09-23T20:46:00Z",
+    "arrival": "2025-09-23T22:33:00Z",
+    "duration": "1h 47m",
+    "operationalDays": [
+      2,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 676,
+    "origin": "HYD",
+    "availableSeats": 109,
+    "destination": "BOM",
+    "price": 9816,
+    "departure": "2025-09-23T01:04:00Z",
+    "arrival": "2025-09-23T03:25:00Z",
+    "duration": "2h 21m",
+    "operationalDays": [
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 402,
+    "origin": "BLR",
+    "availableSeats": 128,
+    "destination": "DEL",
+    "price": 7576,
+    "departure": "2025-09-23T20:55:00Z",
+    "arrival": "2025-09-23T23:30:00Z",
+    "duration": "2h 35m",
+    "operationalDays": [
+      0,
+      6,
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 552,
+    "origin": "BLR",
+    "availableSeats": 85,
+    "destination": "HYD",
+    "price": 7379,
+    "departure": "2025-09-23T20:01:00Z",
+    "arrival": "2025-09-23T21:42:00Z",
+    "duration": "1h 41m",
+    "operationalDays": [
+      4,
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 765,
+    "origin": "BOM",
+    "availableSeats": 134,
+    "destination": "HYD",
+    "price": 6691,
+    "departure": "2025-09-24T03:38:00Z",
+    "arrival": "2025-09-24T06:53:00Z",
+    "duration": "3h 15m",
+    "operationalDays": [
+      0,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 591,
+    "origin": "HYD",
+    "availableSeats": 60,
+    "destination": "BOM",
+    "price": 5257,
+    "departure": "2025-09-24T19:20:00Z",
+    "arrival": "2025-09-24T21:59:00Z",
+    "duration": "2h 39m",
+    "operationalDays": [
+      4,
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 610,
+    "origin": "DEL",
+    "availableSeats": 148,
+    "destination": "BLR",
+    "price": 10008,
+    "departure": "2025-09-24T01:46:00Z",
+    "arrival": "2025-09-24T04:04:00Z",
+    "duration": "2h 18m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 809,
+    "origin": "BOM",
+    "availableSeats": 112,
+    "destination": "BLR",
+    "price": 10819,
+    "departure": "2025-09-24T14:54:00Z",
+    "arrival": "2025-09-24T17:23:00Z",
+    "duration": "2h 29m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 468,
+    "origin": "PNQ",
+    "availableSeats": 77,
+    "destination": "BLR",
+    "price": 7669,
+    "departure": "2025-09-24T07:22:00Z",
+    "arrival": "2025-09-24T09:27:00Z",
+    "duration": "2h 5m",
+    "operationalDays": [
+      0,
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 278,
+    "origin": "BOM",
+    "availableSeats": 21,
+    "destination": "DEL",
+    "price": 11721,
+    "departure": "2025-09-24T21:08:00Z",
+    "arrival": "2025-09-24T22:54:00Z",
+    "duration": "1h 46m",
+    "operationalDays": [
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 831,
+    "origin": "BLR",
+    "availableSeats": 42,
+    "destination": "HYD",
+    "price": 6734,
+    "departure": "2025-09-24T03:56:00Z",
+    "arrival": "2025-09-24T06:07:00Z",
+    "duration": "2h 11m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 845,
+    "origin": "BLR",
+    "availableSeats": 91,
+    "destination": "DEL",
+    "price": 7149,
+    "departure": "2025-09-24T07:28:00Z",
+    "arrival": "2025-09-24T09:36:00Z",
+    "duration": "2h 8m",
+    "operationalDays": [
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 578,
+    "origin": "BLR",
+    "availableSeats": 67,
+    "destination": "PNQ",
+    "price": 2752,
+    "departure": "2025-09-24T01:38:00Z",
+    "arrival": "2025-09-24T03:51:00Z",
+    "duration": "2h 13m",
+    "operationalDays": [
+      3,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 570,
+    "origin": "DEL",
+    "availableSeats": 145,
+    "destination": "BOM",
+    "price": 3641,
+    "departure": "2025-09-24T09:58:00Z",
+    "arrival": "2025-09-24T12:14:00Z",
+    "duration": "2h 16m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 606,
+    "origin": "BLR",
+    "availableSeats": 31,
+    "destination": "HYD",
+    "price": 6710,
+    "departure": "2025-09-25T04:50:00Z",
+    "arrival": "2025-09-25T06:55:00Z",
+    "duration": "2h 5m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 421,
+    "origin": "HYD",
+    "availableSeats": 87,
+    "destination": "BOM",
+    "price": 8021,
+    "departure": "2025-09-25T21:36:00Z",
+    "arrival": "2025-09-25T23:15:00Z",
+    "duration": "1h 39m",
+    "operationalDays": [
+      0,
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 606,
+    "origin": "HYD",
+    "availableSeats": 70,
+    "destination": "DEL",
+    "price": 10675,
+    "departure": "2025-09-25T20:49:00Z",
+    "arrival": "2025-09-25T22:30:00Z",
+    "duration": "1h 41m",
+    "operationalDays": [
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 894,
+    "origin": "HYD",
+    "availableSeats": 113,
+    "destination": "PNQ",
+    "price": 3253,
+    "departure": "2025-09-25T17:49:00Z",
+    "arrival": "2025-09-25T20:26:00Z",
+    "duration": "2h 37m",
+    "operationalDays": [
+      3,
+      5
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 752,
+    "origin": "DEL",
+    "availableSeats": 148,
+    "destination": "HYD",
+    "price": 3264,
+    "departure": "2025-09-25T06:10:00Z",
+    "arrival": "2025-09-25T07:58:00Z",
+    "duration": "1h 48m",
+    "operationalDays": [
+      5,
+      2,
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 930,
+    "origin": "BLR",
+    "availableSeats": 51,
+    "destination": "DEL",
+    "price": 3564,
+    "departure": "2025-09-25T16:02:00Z",
+    "arrival": "2025-09-25T18:48:00Z",
+    "duration": "2h 46m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 703,
+    "origin": "BOM",
+    "availableSeats": 73,
+    "destination": "HYD",
+    "price": 10677,
+    "departure": "2025-09-25T22:13:00Z",
+    "arrival": "2025-09-25T23:50:00Z",
+    "duration": "1h 37m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 458,
+    "origin": "HYD",
+    "availableSeats": 98,
+    "destination": "DEL",
+    "price": 4908,
+    "departure": "2025-09-25T02:41:00Z",
+    "arrival": "2025-09-25T05:02:00Z",
+    "duration": "2h 21m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 265,
+    "origin": "BLR",
+    "availableSeats": 121,
+    "destination": "HYD",
+    "price": 8602,
+    "departure": "2025-09-25T23:25:00Z",
+    "arrival": "2025-09-26T02:23:00Z",
+    "duration": "2h 58m",
+    "operationalDays": [
+      2,
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 201,
+    "origin": "PNQ",
+    "availableSeats": 64,
+    "destination": "HYD",
+    "price": 9124,
+    "departure": "2025-09-25T03:02:00Z",
+    "arrival": "2025-09-25T05:17:00Z",
+    "duration": "2h 15m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 608,
+    "origin": "HYD",
+    "availableSeats": 134,
+    "destination": "DEL",
+    "price": 2694,
+    "departure": "2025-09-26T23:55:00Z",
+    "arrival": "2025-09-27T01:52:00Z",
+    "duration": "1h 57m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 775,
+    "origin": "BOM",
+    "availableSeats": 51,
+    "destination": "DEL",
+    "price": 3178,
+    "departure": "2025-09-26T01:43:00Z",
+    "arrival": "2025-09-26T03:46:00Z",
+    "duration": "2h 3m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 762,
+    "origin": "BOM",
+    "availableSeats": 115,
+    "destination": "BLR",
+    "price": 7727,
+    "departure": "2025-09-26T00:01:00Z",
+    "arrival": "2025-09-26T02:38:00Z",
+    "duration": "2h 37m",
+    "operationalDays": [
+      6,
+      2,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 903,
+    "origin": "DEL",
+    "availableSeats": 93,
+    "destination": "BOM",
+    "price": 3686,
+    "departure": "2025-09-26T08:59:00Z",
+    "arrival": "2025-09-26T11:40:00Z",
+    "duration": "2h 41m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 469,
+    "origin": "BOM",
+    "availableSeats": 133,
+    "destination": "DEL",
+    "price": 8125,
+    "departure": "2025-09-26T12:05:00Z",
+    "arrival": "2025-09-26T14:41:00Z",
+    "duration": "2h 36m",
+    "operationalDays": [
+      4,
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 162,
+    "origin": "BOM",
+    "availableSeats": 92,
+    "destination": "DEL",
+    "price": 3338,
+    "departure": "2025-09-26T13:29:00Z",
+    "arrival": "2025-09-26T15:00:00Z",
+    "duration": "1h 31m",
+    "operationalDays": [
+      5,
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 374,
+    "origin": "BOM",
+    "availableSeats": 143,
+    "destination": "DEL",
+    "price": 3234,
+    "departure": "2025-09-26T07:44:00Z",
+    "arrival": "2025-09-26T10:40:00Z",
+    "duration": "2h 56m",
+    "operationalDays": [
+      2,
+      4,
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 158,
+    "origin": "PNQ",
+    "availableSeats": 44,
+    "destination": "BOM",
+    "price": 2638,
+    "departure": "2025-09-26T10:09:00Z",
+    "arrival": "2025-09-26T13:02:00Z",
+    "duration": "2h 53m",
+    "operationalDays": [
+      3,
+      6,
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 132,
+    "origin": "BOM",
+    "availableSeats": 119,
+    "destination": "DEL",
+    "price": 2666,
+    "departure": "2025-09-26T08:30:00Z",
+    "arrival": "2025-09-26T11:01:00Z",
+    "duration": "2h 31m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 781,
+    "origin": "BLR",
+    "availableSeats": 146,
+    "destination": "DEL",
+    "price": 4970,
+    "departure": "2025-09-26T14:40:00Z",
+    "arrival": "2025-09-26T16:12:00Z",
+    "duration": "1h 32m",
+    "operationalDays": [
+      6,
+      1,
+      0
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 501,
+    "origin": "PNQ",
+    "availableSeats": 19,
+    "destination": "BLR",
+    "price": 4929,
+    "departure": "2025-09-27T16:25:00Z",
+    "arrival": "2025-09-27T18:30:00Z",
+    "duration": "2h 5m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 623,
+    "origin": "DEL",
+    "availableSeats": 66,
+    "destination": "BOM",
+    "price": 3004,
+    "departure": "2025-09-27T17:53:00Z",
+    "arrival": "2025-09-27T20:57:00Z",
+    "duration": "3h 4m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 615,
+    "origin": "BLR",
+    "availableSeats": 73,
+    "destination": "PNQ",
+    "price": 6950,
+    "departure": "2025-09-27T11:11:00Z",
+    "arrival": "2025-09-27T14:04:00Z",
+    "duration": "2h 53m",
+    "operationalDays": [
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 125,
+    "origin": "BOM",
+    "availableSeats": 26,
+    "destination": "BLR",
+    "price": 2669,
+    "departure": "2025-09-27T20:21:00Z",
+    "arrival": "2025-09-27T22:00:00Z",
+    "duration": "1h 39m",
+    "operationalDays": [
+      4,
+      6,
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 215,
+    "origin": "BOM",
+    "availableSeats": 16,
+    "destination": "DEL",
+    "price": 7798,
+    "departure": "2025-09-27T16:17:00Z",
+    "arrival": "2025-09-27T18:26:00Z",
+    "duration": "2h 9m",
+    "operationalDays": [
+      2,
+      1,
+      6
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 710,
+    "origin": "BLR",
+    "availableSeats": 51,
+    "destination": "DEL",
+    "price": 4058,
+    "departure": "2025-09-27T03:53:00Z",
+    "arrival": "2025-09-27T06:04:00Z",
+    "duration": "2h 11m",
+    "operationalDays": [
+      6,
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 675,
+    "origin": "BOM",
+    "availableSeats": 69,
+    "destination": "BLR",
+    "price": 3441,
+    "departure": "2025-09-27T23:54:00Z",
+    "arrival": "2025-09-28T02:42:00Z",
+    "duration": "2h 48m",
+    "operationalDays": [
+      3,
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 954,
+    "origin": "PNQ",
+    "availableSeats": 124,
+    "destination": "BOM",
+    "price": 10244,
+    "departure": "2025-09-27T08:03:00Z",
+    "arrival": "2025-09-27T10:33:00Z",
+    "duration": "2h 30m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 917,
+    "origin": "HYD",
+    "availableSeats": 43,
+    "destination": "BLR",
+    "price": 7477,
+    "departure": "2025-09-27T16:14:00Z",
+    "arrival": "2025-09-27T19:28:00Z",
+    "duration": "3h 14m",
+    "operationalDays": [
+      1,
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 576,
+    "origin": "HYD",
+    "availableSeats": 126,
+    "destination": "BOM",
+    "price": 7406,
+    "departure": "2025-09-27T06:29:00Z",
+    "arrival": "2025-09-27T09:10:00Z",
+    "duration": "2h 41m",
+    "operationalDays": [
+      5,
+      4
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 137,
+    "origin": "BLR",
+    "availableSeats": 110,
+    "destination": "HYD",
+    "price": 9761,
+    "departure": "2025-09-28T02:09:00Z",
+    "arrival": "2025-09-28T05:10:00Z",
+    "duration": "3h 1m",
+    "operationalDays": [
+      0,
+      3
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 702,
+    "origin": "HYD",
+    "availableSeats": 88,
+    "destination": "BLR",
+    "price": 3922,
+    "departure": "2025-09-28T00:56:00Z",
+    "arrival": "2025-09-28T04:03:00Z",
+    "duration": "3h 7m",
+    "operationalDays": [
+      4,
+      0,
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 925,
+    "origin": "HYD",
+    "availableSeats": 150,
+    "destination": "BLR",
+    "price": 8114,
+    "departure": "2025-09-28T05:19:00Z",
+    "arrival": "2025-09-28T07:33:00Z",
+    "duration": "2h 14m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 124,
+    "origin": "BLR",
+    "availableSeats": 146,
+    "destination": "DEL",
+    "price": 3218,
+    "departure": "2025-09-28T22:54:00Z",
+    "arrival": "2025-09-29T00:35:00Z",
+    "duration": "1h 41m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 753,
+    "origin": "PNQ",
+    "availableSeats": 143,
+    "destination": "HYD",
+    "price": 10618,
+    "departure": "2025-09-28T09:12:00Z",
+    "arrival": "2025-09-28T12:04:00Z",
+    "duration": "2h 52m",
+    "operationalDays": [
+      1,
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 181,
+    "origin": "PNQ",
+    "availableSeats": 112,
+    "destination": "DEL",
+    "price": 10113,
+    "departure": "2025-09-28T09:03:00Z",
+    "arrival": "2025-09-28T12:13:00Z",
+    "duration": "3h 10m",
+    "operationalDays": [
+      2,
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 576,
+    "origin": "BLR",
+    "availableSeats": 79,
+    "destination": "PNQ",
+    "price": 2699,
+    "departure": "2025-09-28T09:19:00Z",
+    "arrival": "2025-09-28T12:21:00Z",
+    "duration": "3h 2m",
+    "operationalDays": [
+      1,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 251,
+    "origin": "BLR",
+    "availableSeats": 146,
+    "destination": "PNQ",
+    "price": 6386,
+    "departure": "2025-09-28T12:46:00Z",
+    "arrival": "2025-09-28T16:06:00Z",
+    "duration": "3h 20m",
+    "operationalDays": [
+      0,
+      6,
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 196,
+    "origin": "HYD",
+    "availableSeats": 33,
+    "destination": "DEL",
+    "price": 6914,
+    "departure": "2025-09-28T20:38:00Z",
+    "arrival": "2025-09-28T22:26:00Z",
+    "duration": "1h 48m",
+    "operationalDays": [
+      4,
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 839,
+    "origin": "PNQ",
+    "availableSeats": 120,
+    "destination": "BLR",
+    "price": 6403,
+    "departure": "2025-09-28T12:36:00Z",
+    "arrival": "2025-09-28T14:18:00Z",
+    "duration": "1h 42m",
+    "operationalDays": [
+      4,
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 218,
+    "origin": "HYD",
+    "availableSeats": 116,
+    "destination": "PNQ",
+    "price": 11648,
+    "departure": "2025-09-29T07:32:00Z",
+    "arrival": "2025-09-29T10:25:00Z",
+    "duration": "2h 53m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 144,
+    "origin": "BOM",
+    "availableSeats": 24,
+    "destination": "HYD",
+    "price": 9111,
+    "departure": "2025-09-29T20:58:00Z",
+    "arrival": "2025-09-29T22:42:00Z",
+    "duration": "1h 44m",
+    "operationalDays": [
+      3,
+      2,
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 246,
+    "origin": "PNQ",
+    "availableSeats": 97,
+    "destination": "HYD",
+    "price": 5464,
+    "departure": "2025-09-29T08:26:00Z",
+    "arrival": "2025-09-29T11:42:00Z",
+    "duration": "3h 16m",
+    "operationalDays": [
+      4,
+      5
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 728,
+    "origin": "BOM",
+    "availableSeats": 14,
+    "destination": "DEL",
+    "price": 4249,
+    "departure": "2025-09-29T12:14:00Z",
+    "arrival": "2025-09-29T13:46:00Z",
+    "duration": "1h 32m",
+    "operationalDays": [
+      6,
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 201,
+    "origin": "DEL",
+    "availableSeats": 144,
+    "destination": "PNQ",
+    "price": 8231,
+    "departure": "2025-09-29T12:10:00Z",
+    "arrival": "2025-09-29T14:06:00Z",
+    "duration": "1h 56m",
+    "operationalDays": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 388,
+    "origin": "BLR",
+    "availableSeats": 134,
+    "destination": "HYD",
+    "price": 7257,
+    "departure": "2025-09-29T07:18:00Z",
+    "arrival": "2025-09-29T09:57:00Z",
+    "duration": "2h 39m",
+    "operationalDays": [
+      5,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 776,
+    "origin": "DEL",
+    "availableSeats": 72,
+    "destination": "PNQ",
+    "price": 5607,
+    "departure": "2025-09-29T21:22:00Z",
+    "arrival": "2025-09-30T00:36:00Z",
+    "duration": "3h 14m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 285,
+    "origin": "BOM",
+    "availableSeats": 38,
+    "destination": "PNQ",
+    "price": 3121,
+    "departure": "2025-09-29T06:29:00Z",
+    "arrival": "2025-09-29T08:14:00Z",
+    "duration": "1h 45m",
+    "operationalDays": [
+      0,
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 465,
+    "origin": "BOM",
+    "availableSeats": 91,
+    "destination": "BLR",
+    "price": 3329,
+    "departure": "2025-09-29T22:41:00Z",
+    "arrival": "2025-09-30T01:57:00Z",
+    "duration": "3h 16m",
+    "operationalDays": [
+      2,
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 976,
+    "origin": "BLR",
+    "availableSeats": 65,
+    "destination": "BOM",
+    "price": 7188,
+    "departure": "2025-09-29T18:25:00Z",
+    "arrival": "2025-09-29T20:40:00Z",
+    "duration": "2h 15m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 727,
+    "origin": "DEL",
+    "availableSeats": 44,
+    "destination": "PNQ",
+    "price": 7306,
+    "departure": "2025-09-30T15:52:00Z",
+    "arrival": "2025-09-30T18:33:00Z",
+    "duration": "2h 41m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 597,
+    "origin": "PNQ",
+    "availableSeats": 26,
+    "destination": "DEL",
+    "price": 5041,
+    "departure": "2025-09-30T01:23:00Z",
+    "arrival": "2025-09-30T03:31:00Z",
+    "duration": "2h 8m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 906,
+    "origin": "DEL",
+    "availableSeats": 142,
+    "destination": "HYD",
+    "price": 8906,
+    "departure": "2025-09-30T20:06:00Z",
+    "arrival": "2025-09-30T22:22:00Z",
+    "duration": "2h 16m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 715,
+    "origin": "HYD",
+    "availableSeats": 90,
+    "destination": "BLR",
+    "price": 5216,
+    "departure": "2025-09-30T00:52:00Z",
+    "arrival": "2025-09-30T03:52:00Z",
+    "duration": "3h 0m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 355,
+    "origin": "DEL",
+    "availableSeats": 125,
+    "destination": "BLR",
+    "price": 11445,
+    "departure": "2025-09-30T09:47:00Z",
+    "arrival": "2025-09-30T12:00:00Z",
+    "duration": "2h 13m",
+    "operationalDays": [
+      4,
+      3
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 653,
+    "origin": "BOM",
+    "availableSeats": 47,
+    "destination": "BLR",
+    "price": 9870,
+    "departure": "2025-09-30T20:01:00Z",
+    "arrival": "2025-09-30T22:52:00Z",
+    "duration": "2h 51m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 183,
+    "origin": "HYD",
+    "availableSeats": 79,
+    "destination": "BOM",
+    "price": 6370,
+    "departure": "2025-09-30T04:01:00Z",
+    "arrival": "2025-09-30T06:05:00Z",
+    "duration": "2h 4m",
+    "operationalDays": [
+      4,
+      3,
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 806,
+    "origin": "DEL",
+    "availableSeats": 79,
+    "destination": "BLR",
+    "price": 9614,
+    "departure": "2025-09-30T10:28:00Z",
+    "arrival": "2025-09-30T13:41:00Z",
+    "duration": "3h 13m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 347,
+    "origin": "PNQ",
+    "availableSeats": 54,
+    "destination": "BLR",
+    "price": 10897,
+    "departure": "2025-09-30T11:34:00Z",
+    "arrival": "2025-09-30T13:34:00Z",
+    "duration": "2h 0m",
+    "operationalDays": [
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 624,
+    "origin": "PNQ",
+    "availableSeats": 77,
+    "destination": "DEL",
+    "price": 3052,
+    "departure": "2025-09-30T11:14:00Z",
+    "arrival": "2025-09-30T12:45:00Z",
+    "duration": "1h 31m",
+    "operationalDays": [
+      1,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 616,
+    "origin": "DEL",
+    "availableSeats": 133,
+    "destination": "PNQ",
+    "price": 8859,
+    "departure": "2025-10-01T00:49:00Z",
+    "arrival": "2025-10-01T02:25:00Z",
+    "duration": "1h 36m",
+    "operationalDays": [
+      1,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 706,
+    "origin": "HYD",
+    "availableSeats": 134,
+    "destination": "DEL",
+    "price": 4623,
+    "departure": "2025-10-01T03:09:00Z",
+    "arrival": "2025-10-01T04:59:00Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      6,
+      4,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 469,
+    "origin": "PNQ",
+    "availableSeats": 150,
+    "destination": "HYD",
+    "price": 4703,
+    "departure": "2025-10-01T07:24:00Z",
+    "arrival": "2025-10-01T10:19:00Z",
+    "duration": "2h 55m",
+    "operationalDays": [
+      5,
+      3
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 629,
+    "origin": "BLR",
+    "availableSeats": 35,
+    "destination": "BOM",
+    "price": 11796,
+    "departure": "2025-10-01T18:55:00Z",
+    "arrival": "2025-10-01T21:43:00Z",
+    "duration": "2h 48m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 116,
+    "origin": "BLR",
+    "availableSeats": 47,
+    "destination": "PNQ",
+    "price": 3494,
+    "departure": "2025-10-01T16:42:00Z",
+    "arrival": "2025-10-01T19:35:00Z",
+    "duration": "2h 53m",
+    "operationalDays": [
+      4,
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 651,
+    "origin": "DEL",
+    "availableSeats": 88,
+    "destination": "PNQ",
+    "price": 9803,
+    "departure": "2025-10-01T16:42:00Z",
+    "arrival": "2025-10-01T18:17:00Z",
+    "duration": "1h 35m",
+    "operationalDays": [
+      0,
+      6,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 423,
+    "origin": "BLR",
+    "availableSeats": 40,
+    "destination": "DEL",
+    "price": 3068,
+    "departure": "2025-10-01T04:24:00Z",
+    "arrival": "2025-10-01T07:05:00Z",
+    "duration": "2h 41m",
+    "operationalDays": [
+      1,
+      0,
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 951,
+    "origin": "HYD",
+    "availableSeats": 130,
+    "destination": "BLR",
+    "price": 11844,
+    "departure": "2025-10-01T10:03:00Z",
+    "arrival": "2025-10-01T12:03:00Z",
+    "duration": "2h 0m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 296,
+    "origin": "BLR",
+    "availableSeats": 69,
+    "destination": "PNQ",
+    "price": 6978,
+    "departure": "2025-10-01T16:26:00Z",
+    "arrival": "2025-10-01T19:36:00Z",
+    "duration": "3h 10m",
+    "operationalDays": [
+      2,
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 512,
+    "origin": "DEL",
+    "availableSeats": 114,
+    "destination": "HYD",
+    "price": 8339,
+    "departure": "2025-10-01T10:22:00Z",
+    "arrival": "2025-10-01T13:02:00Z",
+    "duration": "2h 40m",
+    "operationalDays": [
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 819,
+    "origin": "DEL",
+    "availableSeats": 80,
+    "destination": "BLR",
+    "price": 8972,
+    "departure": "2025-10-02T06:38:00Z",
+    "arrival": "2025-10-02T09:22:00Z",
+    "duration": "2h 44m",
+    "operationalDays": [
+      5,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 539,
+    "origin": "HYD",
+    "availableSeats": 113,
+    "destination": "BOM",
+    "price": 9637,
+    "departure": "2025-10-02T00:28:00Z",
+    "arrival": "2025-10-02T03:00:00Z",
+    "duration": "2h 32m",
+    "operationalDays": [
+      3,
+      5,
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 130,
+    "origin": "BLR",
+    "availableSeats": 128,
+    "destination": "HYD",
+    "price": 2897,
+    "departure": "2025-10-02T23:13:00Z",
+    "arrival": "2025-10-03T01:53:00Z",
+    "duration": "2h 40m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 742,
+    "origin": "HYD",
+    "availableSeats": 40,
+    "destination": "BOM",
+    "price": 4435,
+    "departure": "2025-10-02T05:15:00Z",
+    "arrival": "2025-10-02T07:16:00Z",
+    "duration": "2h 1m",
+    "operationalDays": [
+      6,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 525,
+    "origin": "HYD",
+    "availableSeats": 54,
+    "destination": "PNQ",
+    "price": 8250,
+    "departure": "2025-10-02T07:43:00Z",
+    "arrival": "2025-10-02T10:19:00Z",
+    "duration": "2h 36m",
+    "operationalDays": [
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 885,
+    "origin": "BOM",
+    "availableSeats": 24,
+    "destination": "HYD",
+    "price": 3217,
+    "departure": "2025-10-02T22:23:00Z",
+    "arrival": "2025-10-03T01:27:00Z",
+    "duration": "3h 4m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 810,
+    "origin": "DEL",
+    "availableSeats": 56,
+    "destination": "PNQ",
+    "price": 8979,
+    "departure": "2025-10-02T19:33:00Z",
+    "arrival": "2025-10-02T22:07:00Z",
+    "duration": "2h 34m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 986,
+    "origin": "HYD",
+    "availableSeats": 37,
+    "destination": "PNQ",
+    "price": 9151,
+    "departure": "2025-10-02T04:49:00Z",
+    "arrival": "2025-10-02T06:28:00Z",
+    "duration": "1h 39m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 171,
+    "origin": "DEL",
+    "availableSeats": 119,
+    "destination": "HYD",
+    "price": 6010,
+    "departure": "2025-10-02T20:27:00Z",
+    "arrival": "2025-10-02T22:49:00Z",
+    "duration": "2h 22m",
+    "operationalDays": [
+      6,
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 511,
+    "origin": "PNQ",
+    "availableSeats": 68,
+    "destination": "BLR",
+    "price": 11363,
+    "departure": "2025-10-02T01:22:00Z",
+    "arrival": "2025-10-02T03:04:00Z",
+    "duration": "1h 42m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 328,
+    "origin": "BOM",
+    "availableSeats": 87,
+    "destination": "PNQ",
+    "price": 5072,
+    "departure": "2025-10-03T19:45:00Z",
+    "arrival": "2025-10-03T22:58:00Z",
+    "duration": "3h 13m",
+    "operationalDays": [
+      0,
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 519,
+    "origin": "BLR",
+    "availableSeats": 147,
+    "destination": "PNQ",
+    "price": 7159,
+    "departure": "2025-10-03T05:50:00Z",
+    "arrival": "2025-10-03T08:50:00Z",
+    "duration": "3h 0m",
+    "operationalDays": [
+      3,
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 758,
+    "origin": "PNQ",
+    "availableSeats": 145,
+    "destination": "DEL",
+    "price": 8120,
+    "departure": "2025-10-03T23:18:00Z",
+    "arrival": "2025-10-04T00:55:00Z",
+    "duration": "1h 37m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 817,
+    "origin": "PNQ",
+    "availableSeats": 10,
+    "destination": "HYD",
+    "price": 11113,
+    "departure": "2025-10-03T23:39:00Z",
+    "arrival": "2025-10-04T02:37:00Z",
+    "duration": "2h 58m",
+    "operationalDays": [
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 234,
+    "origin": "DEL",
+    "availableSeats": 13,
+    "destination": "BOM",
+    "price": 10851,
+    "departure": "2025-10-03T19:08:00Z",
+    "arrival": "2025-10-03T21:31:00Z",
+    "duration": "2h 23m",
+    "operationalDays": [
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 949,
+    "origin": "DEL",
+    "availableSeats": 23,
+    "destination": "BLR",
+    "price": 7253,
+    "departure": "2025-10-03T06:20:00Z",
+    "arrival": "2025-10-03T08:46:00Z",
+    "duration": "2h 26m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 533,
+    "origin": "DEL",
+    "availableSeats": 149,
+    "destination": "HYD",
+    "price": 3217,
+    "departure": "2025-10-03T23:40:00Z",
+    "arrival": "2025-10-04T01:42:00Z",
+    "duration": "2h 2m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 698,
+    "origin": "HYD",
+    "availableSeats": 105,
+    "destination": "DEL",
+    "price": 6995,
+    "departure": "2025-10-03T13:48:00Z",
+    "arrival": "2025-10-03T15:58:00Z",
+    "duration": "2h 10m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 574,
+    "origin": "DEL",
+    "availableSeats": 112,
+    "destination": "BLR",
+    "price": 5903,
+    "departure": "2025-10-03T14:11:00Z",
+    "arrival": "2025-10-03T16:32:00Z",
+    "duration": "2h 21m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 106,
+    "origin": "DEL",
+    "availableSeats": 118,
+    "destination": "BLR",
+    "price": 5652,
+    "departure": "2025-10-03T05:30:00Z",
+    "arrival": "2025-10-03T07:23:00Z",
+    "duration": "1h 53m",
+    "operationalDays": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 176,
+    "origin": "PNQ",
+    "availableSeats": 100,
+    "destination": "DEL",
+    "price": 7935,
+    "departure": "2025-10-04T00:13:00Z",
+    "arrival": "2025-10-04T03:12:00Z",
+    "duration": "2h 59m",
+    "operationalDays": [
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 319,
+    "origin": "BLR",
+    "availableSeats": 106,
+    "destination": "BOM",
+    "price": 4150,
+    "departure": "2025-10-04T15:29:00Z",
+    "arrival": "2025-10-04T17:06:00Z",
+    "duration": "1h 37m",
+    "operationalDays": [
+      3,
+      0
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 516,
+    "origin": "DEL",
+    "availableSeats": 94,
+    "destination": "BLR",
+    "price": 10529,
+    "departure": "2025-10-04T06:01:00Z",
+    "arrival": "2025-10-04T09:11:00Z",
+    "duration": "3h 10m",
+    "operationalDays": [
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 255,
+    "origin": "DEL",
+    "availableSeats": 16,
+    "destination": "HYD",
+    "price": 5608,
+    "departure": "2025-10-04T22:25:00Z",
+    "arrival": "2025-10-05T01:23:00Z",
+    "duration": "2h 58m",
+    "operationalDays": [
+      0,
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 674,
+    "origin": "BOM",
+    "availableSeats": 141,
+    "destination": "BLR",
+    "price": 5264,
+    "departure": "2025-10-04T15:59:00Z",
+    "arrival": "2025-10-04T18:08:00Z",
+    "duration": "2h 9m",
+    "operationalDays": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 898,
+    "origin": "HYD",
+    "availableSeats": 19,
+    "destination": "DEL",
+    "price": 6402,
+    "departure": "2025-10-04T17:06:00Z",
+    "arrival": "2025-10-04T18:56:00Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 510,
+    "origin": "BOM",
+    "availableSeats": 121,
+    "destination": "BLR",
+    "price": 3936,
+    "departure": "2025-10-04T14:06:00Z",
+    "arrival": "2025-10-04T16:53:00Z",
+    "duration": "2h 47m",
+    "operationalDays": [
+      4,
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 550,
+    "origin": "PNQ",
+    "availableSeats": 108,
+    "destination": "BLR",
+    "price": 3201,
+    "departure": "2025-10-04T18:33:00Z",
+    "arrival": "2025-10-04T21:44:00Z",
+    "duration": "3h 11m",
+    "operationalDays": [
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 537,
+    "origin": "BOM",
+    "availableSeats": 121,
+    "destination": "BLR",
+    "price": 7554,
+    "departure": "2025-10-04T08:32:00Z",
+    "arrival": "2025-10-04T11:09:00Z",
+    "duration": "2h 37m",
+    "operationalDays": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 333,
+    "origin": "PNQ",
+    "availableSeats": 100,
+    "destination": "BLR",
+    "price": 3154,
+    "departure": "2025-10-04T14:32:00Z",
+    "arrival": "2025-10-04T17:33:00Z",
+    "duration": "3h 1m",
+    "operationalDays": [
+      5,
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 788,
+    "origin": "DEL",
+    "availableSeats": 110,
+    "destination": "PNQ",
+    "price": 7516,
+    "departure": "2025-10-05T03:21:00Z",
+    "arrival": "2025-10-05T06:19:00Z",
+    "duration": "2h 58m",
+    "operationalDays": [
+      5,
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 774,
+    "origin": "DEL",
+    "availableSeats": 116,
+    "destination": "BLR",
+    "price": 9946,
+    "departure": "2025-10-05T02:08:00Z",
+    "arrival": "2025-10-05T03:38:00Z",
+    "duration": "1h 30m",
+    "operationalDays": [
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 649,
+    "origin": "BOM",
+    "availableSeats": 97,
+    "destination": "PNQ",
+    "price": 4682,
+    "departure": "2025-10-05T14:03:00Z",
+    "arrival": "2025-10-05T15:36:00Z",
+    "duration": "1h 33m",
+    "operationalDays": [
+      2,
+      5,
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 239,
+    "origin": "BLR",
+    "availableSeats": 49,
+    "destination": "DEL",
+    "price": 5172,
+    "departure": "2025-10-05T19:26:00Z",
+    "arrival": "2025-10-05T21:23:00Z",
+    "duration": "1h 57m",
+    "operationalDays": [
+      6,
+      2,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 300,
+    "origin": "BOM",
+    "availableSeats": 96,
+    "destination": "HYD",
+    "price": 5799,
+    "departure": "2025-10-05T06:52:00Z",
+    "arrival": "2025-10-05T09:19:00Z",
+    "duration": "2h 27m",
+    "operationalDays": [
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 594,
+    "origin": "BOM",
+    "availableSeats": 62,
+    "destination": "DEL",
+    "price": 5825,
+    "departure": "2025-10-05T16:24:00Z",
+    "arrival": "2025-10-05T18:17:00Z",
+    "duration": "1h 53m",
+    "operationalDays": [
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 935,
+    "origin": "BLR",
+    "availableSeats": 52,
+    "destination": "PNQ",
+    "price": 11751,
+    "departure": "2025-10-05T20:34:00Z",
+    "arrival": "2025-10-05T23:05:00Z",
+    "duration": "2h 31m",
+    "operationalDays": [
+      3,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 410,
+    "origin": "DEL",
+    "availableSeats": 49,
+    "destination": "PNQ",
+    "price": 4521,
+    "departure": "2025-10-05T14:17:00Z",
+    "arrival": "2025-10-05T16:32:00Z",
+    "duration": "2h 15m",
+    "operationalDays": [
+      0,
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 938,
+    "origin": "DEL",
+    "availableSeats": 40,
+    "destination": "HYD",
+    "price": 11936,
+    "departure": "2025-10-05T09:15:00Z",
+    "arrival": "2025-10-05T12:00:00Z",
+    "duration": "2h 45m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 214,
+    "origin": "HYD",
+    "availableSeats": 141,
+    "destination": "BLR",
+    "price": 5499,
+    "departure": "2025-10-05T18:01:00Z",
+    "arrival": "2025-10-05T19:57:00Z",
+    "duration": "1h 56m",
+    "operationalDays": [
+      3,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 543,
+    "origin": "BOM",
+    "availableSeats": 37,
+    "destination": "DEL",
+    "price": 11406,
+    "departure": "2025-10-06T17:45:00Z",
+    "arrival": "2025-10-06T20:04:00Z",
+    "duration": "2h 19m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 644,
+    "origin": "HYD",
+    "availableSeats": 111,
+    "destination": "BLR",
+    "price": 7300,
+    "departure": "2025-10-06T14:28:00Z",
+    "arrival": "2025-10-06T16:34:00Z",
+    "duration": "2h 6m",
+    "operationalDays": [
+      6,
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 167,
+    "origin": "BOM",
+    "availableSeats": 142,
+    "destination": "HYD",
+    "price": 11931,
+    "departure": "2025-10-06T14:29:00Z",
+    "arrival": "2025-10-06T16:29:00Z",
+    "duration": "2h 0m",
+    "operationalDays": [
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 318,
+    "origin": "BOM",
+    "availableSeats": 25,
+    "destination": "DEL",
+    "price": 2738,
+    "departure": "2025-10-06T23:50:00Z",
+    "arrival": "2025-10-07T02:12:00Z",
+    "duration": "2h 22m",
+    "operationalDays": [
+      2,
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 945,
+    "origin": "DEL",
+    "availableSeats": 124,
+    "destination": "BLR",
+    "price": 6316,
+    "departure": "2025-10-06T02:40:00Z",
+    "arrival": "2025-10-06T04:54:00Z",
+    "duration": "2h 14m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 745,
+    "origin": "HYD",
+    "availableSeats": 49,
+    "destination": "DEL",
+    "price": 4178,
+    "departure": "2025-10-06T23:36:00Z",
+    "arrival": "2025-10-07T02:24:00Z",
+    "duration": "2h 48m",
+    "operationalDays": [
+      0,
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 266,
+    "origin": "PNQ",
+    "availableSeats": 12,
+    "destination": "DEL",
+    "price": 3874,
+    "departure": "2025-10-06T22:15:00Z",
+    "arrival": "2025-10-07T00:23:00Z",
+    "duration": "2h 8m",
+    "operationalDays": [
+      1,
+      5
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 991,
+    "origin": "DEL",
+    "availableSeats": 55,
+    "destination": "PNQ",
+    "price": 6527,
+    "departure": "2025-10-06T02:43:00Z",
+    "arrival": "2025-10-06T04:46:00Z",
+    "duration": "2h 3m",
+    "operationalDays": [
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 230,
+    "origin": "DEL",
+    "availableSeats": 70,
+    "destination": "PNQ",
+    "price": 11015,
+    "departure": "2025-10-06T10:49:00Z",
+    "arrival": "2025-10-06T12:38:00Z",
+    "duration": "1h 49m",
+    "operationalDays": [
+      2,
+      1
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 107,
+    "origin": "HYD",
+    "availableSeats": 63,
+    "destination": "PNQ",
+    "price": 7742,
+    "departure": "2025-10-06T15:17:00Z",
+    "arrival": "2025-10-06T18:20:00Z",
+    "duration": "3h 3m",
+    "operationalDays": [
+      4,
+      0,
+      5
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 374,
+    "origin": "DEL",
+    "availableSeats": 39,
+    "destination": "PNQ",
+    "price": 7807,
+    "departure": "2025-10-07T13:12:00Z",
+    "arrival": "2025-10-07T16:15:00Z",
+    "duration": "3h 3m",
+    "operationalDays": [
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 548,
+    "origin": "DEL",
+    "availableSeats": 115,
+    "destination": "PNQ",
+    "price": 6109,
+    "departure": "2025-10-07T05:53:00Z",
+    "arrival": "2025-10-07T08:22:00Z",
+    "duration": "2h 29m",
+    "operationalDays": [
+      2,
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 166,
+    "origin": "BOM",
+    "availableSeats": 69,
+    "destination": "DEL",
+    "price": 9639,
+    "departure": "2025-10-07T01:24:00Z",
+    "arrival": "2025-10-07T04:44:00Z",
+    "duration": "3h 20m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 921,
+    "origin": "PNQ",
+    "availableSeats": 118,
+    "destination": "DEL",
+    "price": 3983,
+    "departure": "2025-10-07T12:01:00Z",
+    "arrival": "2025-10-07T14:55:00Z",
+    "duration": "2h 54m",
+    "operationalDays": [
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 238,
+    "origin": "DEL",
+    "availableSeats": 126,
+    "destination": "BOM",
+    "price": 5268,
+    "departure": "2025-10-07T20:33:00Z",
+    "arrival": "2025-10-07T22:07:00Z",
+    "duration": "1h 34m",
+    "operationalDays": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 480,
+    "origin": "BOM",
+    "availableSeats": 11,
+    "destination": "BLR",
+    "price": 7865,
+    "departure": "2025-10-07T19:11:00Z",
+    "arrival": "2025-10-07T21:52:00Z",
+    "duration": "2h 41m",
+    "operationalDays": [
+      6,
+      5,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 119,
+    "origin": "BOM",
+    "availableSeats": 98,
+    "destination": "DEL",
+    "price": 3896,
+    "departure": "2025-10-07T09:39:00Z",
+    "arrival": "2025-10-07T12:25:00Z",
+    "duration": "2h 46m",
+    "operationalDays": [
+      6,
+      5,
+      3
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 779,
+    "origin": "BLR",
+    "availableSeats": 34,
+    "destination": "HYD",
+    "price": 4520,
+    "departure": "2025-10-07T20:19:00Z",
+    "arrival": "2025-10-07T23:18:00Z",
+    "duration": "2h 59m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 847,
+    "origin": "PNQ",
+    "availableSeats": 129,
+    "destination": "BOM",
+    "price": 8131,
+    "departure": "2025-10-07T04:14:00Z",
+    "arrival": "2025-10-07T06:32:00Z",
+    "duration": "2h 18m",
+    "operationalDays": [
+      3,
+      0
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 791,
+    "origin": "HYD",
+    "availableSeats": 28,
+    "destination": "PNQ",
+    "price": 10695,
+    "departure": "2025-10-07T19:54:00Z",
+    "arrival": "2025-10-07T22:36:00Z",
+    "duration": "2h 42m",
+    "operationalDays": [
+      6,
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 779,
+    "origin": "DEL",
+    "availableSeats": 143,
+    "destination": "PNQ",
+    "price": 2722,
+    "departure": "2025-10-08T00:56:00Z",
+    "arrival": "2025-10-08T02:43:00Z",
+    "duration": "1h 47m",
+    "operationalDays": [
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 502,
+    "origin": "PNQ",
+    "availableSeats": 143,
+    "destination": "DEL",
+    "price": 4745,
+    "departure": "2025-10-08T20:40:00Z",
+    "arrival": "2025-10-08T23:50:00Z",
+    "duration": "3h 10m",
+    "operationalDays": [
+      0,
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 989,
+    "origin": "DEL",
+    "availableSeats": 138,
+    "destination": "BLR",
+    "price": 8975,
+    "departure": "2025-10-08T07:06:00Z",
+    "arrival": "2025-10-08T09:59:00Z",
+    "duration": "2h 53m",
+    "operationalDays": [
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 805,
+    "origin": "PNQ",
+    "availableSeats": 55,
+    "destination": "BLR",
+    "price": 8782,
+    "departure": "2025-10-08T12:08:00Z",
+    "arrival": "2025-10-08T14:22:00Z",
+    "duration": "2h 14m",
+    "operationalDays": [
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 451,
+    "origin": "HYD",
+    "availableSeats": 18,
+    "destination": "PNQ",
+    "price": 5738,
+    "departure": "2025-10-08T11:02:00Z",
+    "arrival": "2025-10-08T13:46:00Z",
+    "duration": "2h 44m",
+    "operationalDays": [
+      3
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 355,
+    "origin": "BOM",
+    "availableSeats": 32,
+    "destination": "BLR",
+    "price": 7557,
+    "departure": "2025-10-08T04:45:00Z",
+    "arrival": "2025-10-08T07:40:00Z",
+    "duration": "2h 55m",
+    "operationalDays": [
+      5
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 915,
+    "origin": "PNQ",
+    "availableSeats": 42,
+    "destination": "DEL",
+    "price": 4790,
+    "departure": "2025-10-08T22:35:00Z",
+    "arrival": "2025-10-09T01:32:00Z",
+    "duration": "2h 57m",
+    "operationalDays": [
+      0,
+      1,
+      5
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 817,
+    "origin": "HYD",
+    "availableSeats": 78,
+    "destination": "DEL",
+    "price": 9969,
+    "departure": "2025-10-08T11:48:00Z",
+    "arrival": "2025-10-08T14:15:00Z",
+    "duration": "2h 27m",
+    "operationalDays": [
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 733,
+    "origin": "HYD",
+    "availableSeats": 60,
+    "destination": "PNQ",
+    "price": 11915,
+    "departure": "2025-10-08T23:13:00Z",
+    "arrival": "2025-10-09T01:46:00Z",
+    "duration": "2h 33m",
+    "operationalDays": [
+      5,
+      6
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 954,
+    "origin": "HYD",
+    "availableSeats": 132,
+    "destination": "DEL",
+    "price": 5173,
+    "departure": "2025-10-08T14:57:00Z",
+    "arrival": "2025-10-08T17:20:00Z",
+    "duration": "2h 23m",
+    "operationalDays": [
+      4,
+      1
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 384,
+    "origin": "PNQ",
+    "availableSeats": 16,
+    "destination": "DEL",
+    "price": 11266,
+    "departure": "2025-10-09T18:47:00Z",
+    "arrival": "2025-10-09T20:25:00Z",
+    "duration": "1h 38m",
+    "operationalDays": [
+      5,
+      6,
+      1
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 307,
+    "origin": "HYD",
+    "availableSeats": 50,
+    "destination": "DEL",
+    "price": 9180,
+    "departure": "2025-10-09T14:30:00Z",
+    "arrival": "2025-10-09T17:35:00Z",
+    "duration": "3h 5m",
+    "operationalDays": [
+      4
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 993,
+    "origin": "BOM",
+    "availableSeats": 31,
+    "destination": "DEL",
+    "price": 11114,
+    "departure": "2025-10-09T04:25:00Z",
+    "arrival": "2025-10-09T06:49:00Z",
+    "duration": "2h 24m",
+    "operationalDays": [
+      0
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 556,
+    "origin": "PNQ",
+    "availableSeats": 88,
+    "destination": "DEL",
+    "price": 9509,
+    "departure": "2025-10-09T17:36:00Z",
+    "arrival": "2025-10-09T20:24:00Z",
+    "duration": "2h 48m",
+    "operationalDays": [
+      0,
+      6,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 494,
+    "origin": "HYD",
+    "availableSeats": 71,
+    "destination": "BLR",
+    "price": 8255,
+    "departure": "2025-10-09T06:51:00Z",
+    "arrival": "2025-10-09T09:03:00Z",
+    "duration": "2h 12m",
+    "operationalDays": [
+      3,
+      1,
+      6
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 519,
+    "origin": "HYD",
+    "availableSeats": 63,
+    "destination": "BLR",
+    "price": 4829,
+    "departure": "2025-10-09T12:24:00Z",
+    "arrival": "2025-10-09T14:50:00Z",
+    "duration": "2h 26m",
+    "operationalDays": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 560,
+    "origin": "BLR",
+    "availableSeats": 126,
+    "destination": "DEL",
+    "price": 6985,
+    "departure": "2025-10-09T14:23:00Z",
+    "arrival": "2025-10-09T16:54:00Z",
+    "duration": "2h 31m",
+    "operationalDays": [
+      2,
+      5
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 643,
+    "origin": "BLR",
+    "availableSeats": 18,
+    "destination": "DEL",
+    "price": 8999,
+    "departure": "2025-10-09T11:06:00Z",
+    "arrival": "2025-10-09T12:56:00Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      6,
+      4,
+      1
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 225,
+    "origin": "BLR",
+    "availableSeats": 44,
+    "destination": "BOM",
+    "price": 8153,
+    "departure": "2025-10-09T03:57:00Z",
+    "arrival": "2025-10-09T06:55:00Z",
+    "duration": "2h 58m",
+    "operationalDays": [
+      6
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 315,
+    "origin": "HYD",
+    "availableSeats": 139,
+    "destination": "BOM",
+    "price": 5243,
+    "departure": "2025-10-09T23:54:00Z",
+    "arrival": "2025-10-10T01:46:00Z",
+    "duration": "1h 52m",
+    "operationalDays": [
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 221,
+    "origin": "DEL",
+    "availableSeats": 25,
+    "destination": "HYD",
+    "price": 3336,
+    "departure": "2025-10-10T22:06:00Z",
+    "arrival": "2025-10-10T23:52:00Z",
+    "duration": "1h 46m",
+    "operationalDays": [
+      1,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 362,
+    "origin": "BLR",
+    "availableSeats": 48,
+    "destination": "BOM",
+    "price": 2804,
+    "departure": "2025-10-10T12:35:00Z",
+    "arrival": "2025-10-10T14:23:00Z",
+    "duration": "1h 48m",
+    "operationalDays": [
+      2,
+      6
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 532,
+    "origin": "BLR",
+    "availableSeats": 126,
+    "destination": "HYD",
+    "price": 8529,
+    "departure": "2025-10-10T02:42:00Z",
+    "arrival": "2025-10-10T05:14:00Z",
+    "duration": "2h 32m",
+    "operationalDays": [
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 924,
+    "origin": "DEL",
+    "availableSeats": 108,
+    "destination": "PNQ",
+    "price": 7451,
+    "departure": "2025-10-10T06:08:00Z",
+    "arrival": "2025-10-10T07:46:00Z",
+    "duration": "1h 38m",
+    "operationalDays": [
+      3,
+      1
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 418,
+    "origin": "BOM",
+    "availableSeats": 53,
+    "destination": "PNQ",
+    "price": 10113,
+    "departure": "2025-10-10T04:52:00Z",
+    "arrival": "2025-10-10T07:30:00Z",
+    "duration": "2h 38m",
+    "operationalDays": [
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 274,
+    "origin": "PNQ",
+    "availableSeats": 142,
+    "destination": "DEL",
+    "price": 7229,
+    "departure": "2025-10-10T01:33:00Z",
+    "arrival": "2025-10-10T03:10:00Z",
+    "duration": "1h 37m",
+    "operationalDays": [
+      5,
+      4
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 130,
+    "origin": "DEL",
+    "availableSeats": 133,
+    "destination": "BLR",
+    "price": 8577,
+    "departure": "2025-10-10T02:51:00Z",
+    "arrival": "2025-10-10T05:29:00Z",
+    "duration": "2h 38m",
+    "operationalDays": [
+      1,
+      5,
+      6
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 161,
+    "origin": "DEL",
+    "availableSeats": 113,
+    "destination": "HYD",
+    "price": 8043,
+    "departure": "2025-10-10T17:32:00Z",
+    "arrival": "2025-10-10T20:48:00Z",
+    "duration": "3h 16m",
+    "operationalDays": [
+      4,
+      3
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 396,
+    "origin": "DEL",
+    "availableSeats": 105,
+    "destination": "BLR",
+    "price": 8898,
+    "departure": "2025-10-10T12:18:00Z",
+    "arrival": "2025-10-10T15:13:00Z",
+    "duration": "2h 55m",
+    "operationalDays": [
+      6,
+      5,
+      2
+    ]
+  },
+  {
+    "airline": "Vistara",
+    "airlineCode": "UK",
+    "flightNumber": 499,
+    "origin": "HYD",
+    "availableSeats": 95,
+    "destination": "DEL",
+    "price": 4591,
+    "departure": "2025-10-10T23:38:00Z",
+    "arrival": "2025-10-11T01:10:00Z",
+    "duration": "1h 32m",
+    "operationalDays": [
+      4
+    ]
+  }
+]
