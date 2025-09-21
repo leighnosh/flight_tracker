@@ -23,6 +23,11 @@ $body   = in_array($method, ['POST','PUT','PATCH'])
 
 // ---- Routes ----
 
+if ($method === 'GET' && $path === '/') {
+    echo json_encode(['status' => 'ok', 'message' => 'Assignment done..']);
+    exit;
+}
+
 // Health check
 if ($method === 'GET' && $path === '/ping') {
     echo json_encode(['status' => 'ok', 'env_db' => $config['database']['db'] ?? null]);
