@@ -67,6 +67,26 @@ if ($path === '/api/auth/login' && $method === 'POST') {
     exit;
 }
 
+// POST /api/bookings (no auth middleware yet)
+if ($path === '/api/bookings' && $method === 'POST') {
+    require_once __DIR__ . '/../db/db.php';
+    require_once __DIR__ . '/../src/controllers/BookingController.php';
+    $body = json_decode(file_get_contents('php://input'), true) ?: [];
+    // authPayload omitted for now
+    $dummyAuth = ['user_id' => 1]; // temporary stub until middleware wired
+    BookingController::create($pdo, $dummyAuth, $body);
+    exit;
+}
+
+// GET /api/bookings/{id} (no auth middleware yet)
+if (preg_match('#^/api/bookings/(\d+)$#', $path, $m) && $method === 'GET') {
+    require_once __DIR__ . '/../db/db.php';
+    require_once __DIR__ . '/../src/controllers/BookingController.php';
+    $id = intval($m[1]);
+    $dummyAuth = ['user_id' => 1]; // temporary stub
+    BookingController::get($pdo, $dummyAuth, $id);
+    exit;
+}
 
 // Fallback for unknown routes
 http_response_code(404);
