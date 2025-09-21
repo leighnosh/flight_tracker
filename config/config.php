@@ -14,5 +14,5 @@ return [
         'username' => $_ENV['DB_USER'],
         'password' => $_ENV['DB_PASS'],
     ],
-    'password' => $_ENV['JWT_SECRET']
+    'jwt_secret' => $_ENV['JWT_SECRET']
 ];
