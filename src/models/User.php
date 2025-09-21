@@ -19,4 +19,9 @@ class User
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         return $row ?: null;        
     }
+
+    public static function verifyPassword(string $password, string $hash): bool
+    {
+        return password_verify($password, $hash);
+    }
 }
