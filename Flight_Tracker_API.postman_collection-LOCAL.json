@@ -1,0 +1,641 @@
+{
+	"info": {
+		"_postman_id": "flight-tracker-api",
+		"name": "Flight Tracker API",
+		"description": "API documentation for the Flight Tracker application. This collection includes all endpoints for flight search, user authentication, and booking management.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"key": "authToken",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/ping",
+					"host": ["{{baseUrl}}"],
+					"path": ["ping"]
+				},
+				"description": "Health check endpoint to verify API status and database connection"
+			},
+			"response": [
+				{
+					"name": "Health Check Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/ping",
+							"host": ["{{baseUrl}}"],
+							"path": ["ping"]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"status\": \"ok\",\n  \"env_db\": \"flight_tracker\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/register",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "register"]
+						},
+						"description": "Register a new user account. Email must be valid and password must be at least 6 characters."
+					},
+					"response": [
+						{
+							"name": "Registration Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/auth/register",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "auth", "register"]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"message\": \"Registered\",\n  \"user_id\": 1\n}"
+						},
+						{
+							"name": "Email Already Registered",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"existing@example.com\",\n  \"password\": \"password123\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/auth/register",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "auth", "register"]
+								}
+							},
+							"status": "Conflict",
+							"code": 409,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Email already registered\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Login User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const responseJson = pm.response.json();",
+									"    pm.collectionVariables.set('authToken', responseJson.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/login",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "login"]
+						},
+						"description": "Login with email and password to receive JWT token. Token is automatically saved to collection variable for use in authenticated requests."
+					},
+					"response": [
+						{
+							"name": "Login Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/auth/login",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "auth", "login"]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...\",\n  \"expires_in\": 14400,\n  \"user_id\": 1\n}"
+						},
+						{
+							"name": "Invalid Credentials",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"wrongpassword\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/auth/login",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "auth", "login"]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Invalid credentials\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flights",
+			"item": [
+				{
+					"name": "Search Flights",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/flights?origin=PNQ&destination=DEL&date=2025-09-22&passengers=2&limit=10&offset=0&sort=price",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "flights"],
+							"query": [
+								{
+									"key": "origin",
+									"value": "PNQ",
+									"description": "3-letter IATA code for departure airport (Available: PNQ, DEL, BOM, BLR, HYD)"
+								},
+								{
+									"key": "destination",
+									"value": "DEL",
+									"description": "3-letter IATA code for arrival airport (Available: PNQ, DEL, BOM, BLR, HYD)"
+								},
+								{
+									"key": "date",
+									"value": "2025-01-01",
+									"description": "Departure date in YYYY-MM-DD format"
+								},
+								{
+									"key": "passengers",
+									"value": "2",
+									"description": "Number of passengers (optional, default: 1)"
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "Maximum number of results (optional, default: 50)"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "Number of results to skip (optional, default: 0)"
+								},
+								{
+									"key": "sort",
+									"value": "price",
+									"description": "Sort by 'price' or 'departure' (optional, default: price)"
+								}
+							]
+						},
+						"description": "Search for flights based on origin, destination, date, and number of passengers. Results are paginated and can be sorted by price or departure time."
+					},
+					"response": [
+						{
+							"name": "Flight Search Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/flights?origin=DEL&destination=PNQ&date=2025-09-22&passengers=2",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "flights"],
+									"query": [
+										{
+											"key": "origin",
+											"value": "DEL"
+										},
+										{
+											"key": "destination",
+											"value": "PNQ"
+										},
+										{
+											"key": "date",
+											"value": "2025-09-22"
+										},
+										{
+											"key": "passengers",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"data\": [\n    {\n      \"id\": 1,\n      \"airline\": \"Spice Jet\",\n      \"airline_code\": \"SG\",\n      \"flight_number\": \"SG379\",\n      \"origin\": \"DEL\",\n      \"destination\": \"PNQ\",\n      \"departure\": \"2025-09-22T03:02:00Z\",\n      \"arrival\": \"2025-09-22T05:29:00Z\",\n      \"duration\": \"2h 27m\",\n      \"price\": 4818,\n      \"available_seats\": 113\n    }\n  ],\n  \"meta\": {\n    \"count\": 1\n  }\n}"
+						},
+						{
+							"name": "Invalid Parameters",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/flights?origin=INVALID&destination=PNQ&date=2025-09-22",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "flights"],
+									"query": [
+										{
+											"key": "origin",
+											"value": "INVALID"
+										},
+										{
+											"key": "destination",
+											"value": "PNQ"
+										},
+										{
+											"key": "date",
+											"value": "2025-09-22"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Invalid or missing origin (3-letter IATA).\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bookings",
+			"item": [
+				{
+					"name": "Create Booking",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"flight_id\": 1,\n  \"seats\": 2,\n  \"passengers\": [\n    {\n      \"name\": \"John Doe\",\n      \"email\": \"john@example.com\",\n      \"phone\": \"+91-9876543210\"\n    },\n    {\n      \"name\": \"Jane Doe\",\n      \"email\": \"jane@example.com\",\n      \"phone\": \"+91-9876543211\"\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/bookings",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "bookings"]
+						},
+						"description": "Create a new flight booking. Requires authentication. The number of passengers must match the number of seats requested."
+					},
+					"response": [
+						{
+							"name": "Booking Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"flight_id\": 1,\n  \"seats\": 2,\n  \"passengers\": [\n    {\n      \"name\": \"John Doe\",\n      \"email\": \"john@example.com\",\n      \"phone\": \"+1234567890\"\n    },\n    {\n      \"name\": \"Jane Doe\",\n      \"email\": \"jane@example.com\",\n      \"phone\": \"+1234567891\"\n    }\n  ]\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings"]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"booking\": {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"flight_id\": 1,\n    \"seats_booked\": 2,\n    \"confirmation\": \"BOOK-abc123def456-1640419200\",\n    \"status\": \"CONFIRMED\",\n    \"created_at\": \"2024-12-25T10:00:00Z\",\n    \"total_price\": 599.98,\n    \"price_per_seat\": 299.99,\n    \"passengers\": [\n      {\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"phone\": \"+1234567890\"\n      },\n      {\n        \"name\": \"Jane Doe\",\n        \"email\": \"jane@example.com\",\n        \"phone\": \"+1234567891\"\n      }\n    ]\n  }\n}"
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"flight_id\": 1,\n  \"seats\": 2,\n  \"passengers\": []\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings"]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Missing Authorization header\"\n}"
+						},
+						{
+							"name": "Not Enough Seats",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"flight_id\": 1,\n  \"seats\": 100,\n  \"passengers\": []\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings"]
+								}
+							},
+							"status": "Conflict",
+							"code": 409,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Not enough seats available\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Booking",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/bookings/1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "bookings", "1"]
+						},
+						"description": "Retrieve a specific booking by ID. Users can only access their own bookings."
+					},
+					"response": [
+						{
+							"name": "Booking Retrieved",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings/1",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings", "1"]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"booking\": {\n    \"id\": 1,\n    \"user_id\": 1,\n    \"flight_id\": 1,\n    \"seats_booked\": 2,\n    \"confirmation\": \"BOOK-abc123def456-1640419200\",\n    \"status\": \"CONFIRMED\",\n    \"created_at\": \"2024-12-25T10:00:00Z\",\n    \"passengers\": [\n      {\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"phone\": \"+91-9876543210\"\n      },\n      {\n        \"name\": \"Jane Doe\",\n        \"email\": \"jane@example.com\",\n        \"phone\": \"+91-9876543211\"\n      }\n    ]\n  }\n}"
+						},
+						{
+							"name": "Booking Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings/999",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings", "999"]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Booking not found\"\n}"
+						},
+						{
+							"name": "Forbidden - Not Owner",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/bookings/2",
+									"host": ["{{baseUrl}}"],
+									"path": ["api", "bookings", "2"]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"error\": true,\n  \"message\": \"Forbidden\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{authToken}}",
+				"type": "string"
+			}
+		]
+	}
+}
