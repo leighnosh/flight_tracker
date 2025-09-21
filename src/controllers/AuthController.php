@@ -29,4 +29,47 @@ class AuthController
             Response::error('Database error: ' . $e->getMessage(), 500);
         }
     }
+
+    // POST /api/auth/register
+    public static function login(PDO $pdo, array $body, array $config): void
+    {
+        $email = trim(strtolower($body['email'] ?? ''));
+        $password = $body['password'] ?? '';
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            Response::error('Invalid email', 400);
+        }
+        if (!is_string($password) || $password === '') {
+            Response::error('Password required', 400);
+        }
+
+        // Fetch user
+        $user = User::findByEmail($pdo, $email);
+        if (!$user) {
+            Response::error('Invalid credentials', 401);
+        }
+
+        // Verify password
+        if (!User::verifyPassword($password, $user['password_hash'])) {
+            Response::error('Invalid credentials', 401);
+        }
+
+        $userId = (int)$user['id'];
+
+        // Get JWT secret
+        $secret = self::getSecretFromConfig($config);
+
+        try {
+            $token = JWT::encode(['user_id' => $userId], $secret, 60*60*4);
+            Response::json(['token' => $token, 'expires_in' => 60*60*4, 'user_id' => $userId]);
+        } catch (Exception $e) {
+            Response::error('Token generation failed', 500);
+        }
+    }
+
+    private static function getSecretFromConfig(array $config): string {
+        if (isset($config['jwt_secret']) && $config['jwt_secret']) return $config['jwt_secret'];
+        $env = getenv('JWT_SECRET');
+        return $env;
+    }
 }
