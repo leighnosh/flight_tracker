@@ -9,7 +9,7 @@ class AuthController
     {
         $email = trim(strtolower($body['email'] ?? ''));
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            Response::error('Invalid email, 400');
+            Response::error('Invalid email', 400);
         }
         // Check if User already registered
         $existing = User::findByEmail($pdo, $email);
@@ -17,7 +17,7 @@ class AuthController
             Response::error('Email already registered', 409);
         }
         
-        $password = trim(strtolower($body['password'] ?? ''));
+        $password = trim($body['password'] ?? '');
         if (!is_string($password) || strlen($password) < 6) {
             Response::error('Password must be at least 6 characters', 400);
         }

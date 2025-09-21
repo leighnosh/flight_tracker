@@ -8,4 +8,5 @@ try {
     // echo "Connected to database {$config['database']['db']} with user {$config['database']['username']}";
 } catch (PDOException $e) {
     echo "Error connecting to database: {$e->getMessage()}";
+    exit(1);
 }

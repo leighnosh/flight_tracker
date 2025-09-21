@@ -37,7 +37,7 @@ if ($method === 'GET' && $path === '/api/flights') {
 
 // Auth
 if ($method === 'POST' && $path === '/api/auth/register') {
-    AuthController::register($pdo, $body, $config);
+    AuthController::register($pdo, $body);
     exit;
 }
 if ($method === 'POST' && $path === '/api/auth/login') {
