@@ -1,94 +1,62 @@
-<?php
-// public/index.php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
-// Composer autoload
-require_once __DIR__ . '/../vendor/autoload.php';
-
-// Load config
+require __DIR__ . '/../vendor/autoload.php';
 $config = require __DIR__ . '/../config/config.php';
+require __DIR__ . '/../db/db.php'; // sets $pdo
 
-// Simple autoloader for src/ files
+// autoload from src/
 spl_autoload_register(function ($class) {
     $base = __DIR__ . '/../src/';
-    $paths = [
-        $base . 'controllers/',
-        $base . 'models/',
-        $base . 'utils/',
-    ];
-    foreach ($paths as $p) {
-        $file = $p . $class . '.php';
-        if (file_exists($file)) {
-            require_once $file;
-            return;
-        }
+    foreach (['controllers','models','utils','middleware'] as $dir) {
+        $file = $base . $dir . '/' . $class . '.php';
+        if (file_exists($file)) require $file;
     }
 });
 
-// Always respond JSON
 header('Content-Type: application/json; charset=utf-8');
 
-// Parse request
 $method = $_SERVER['REQUEST_METHOD'];
-$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$path = rtrim($uri, '/');
-if ($path === '') $path = '/';
+$path   = rtrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/') ?: '/';
+$body   = in_array($method, ['POST','PUT','PATCH'])
+    ? (json_decode(file_get_contents('php://input'), true) ?: [])
+    : [];
+
+// ---- Routes ----
 
 // Health check
-if ($path === '/ping' || $path === '/') {
+if ($method === 'GET' && $path === '/ping') {
     echo json_encode(['status' => 'ok', 'env_db' => $config['database']['db'] ?? null]);
     exit;
 }
 
-
-// GET /api/flights
-if ($path === '/api/flights' && $method === 'GET') {
-    require_once __DIR__ . '/../db/db.php'; // sets $pdo
-    require_once __DIR__ . '/../src/controllers/FlightController.php';
+// Flights
+if ($method === 'GET' && $path === '/api/flights') {
     FlightController::search($pdo);
     exit;
 }
 
-// POST /api/auth/register
-if ($path === '/api/auth/register' && $method === 'POST') {
-    require_once __DIR__ . '/../db/db.php';
-    require_once __DIR__ . '/../src/controllers/AuthController.php';
-    $body = json_decode(file_get_contents('php://input'), true) ?: [];
+// Auth
+if ($method === 'POST' && $path === '/api/auth/register') {
     AuthController::register($pdo, $body, $config);
     exit;
 }
-
-// POST /api/auth/login
-if ($path === '/api/auth/login' && $method === 'POST') {
-    require_once __DIR__ . '/../db/db.php';
-    require_once __DIR__ . '/../src/controllers/AuthController.php';
-    $body = json_decode(file_get_contents('php://input'), true) ?: [];
+if ($method === 'POST' && $path === '/api/auth/login') {
     AuthController::login($pdo, $body, $config);
     exit;
 }
 
-// POST /api/bookings (no auth middleware yet)
-if ($path === '/api/bookings' && $method === 'POST') {
-    require_once __DIR__ . '/../db/db.php';
-    require_once __DIR__ . '/../src/controllers/BookingController.php';
-    $body = json_decode(file_get_contents('php://input'), true) ?: [];
-    // authPayload omitted for now
-    $dummyAuth = ['user_id' => 1]; // temporary stub until middleware wired
-    BookingController::create($pdo, $dummyAuth, $body);
+// Bookings (authenticated)
+if ($method === 'POST' && $path === '/api/bookings') {
+    $auth = AuthMiddleware::requireAuth($config);
+    BookingController::create($pdo, $auth, $body);
+    exit;
+}
+if ($method === 'GET' && preg_match('#^/api/bookings/(\d+)$#', $path, $m)) {
+    $auth = AuthMiddleware::requireAuth($config);
+    BookingController::get($pdo, $auth, (int)$m[1]);
     exit;
 }
 
-// GET /api/bookings/{id} (no auth middleware yet)
-if (preg_match('#^/api/bookings/(\d+)$#', $path, $m) && $method === 'GET') {
-    require_once __DIR__ . '/../db/db.php';
-    require_once __DIR__ . '/../src/controllers/BookingController.php';
-    $id = intval($m[1]);
-    $dummyAuth = ['user_id' => 1]; // temporary stub
-    BookingController::get($pdo, $dummyAuth, $id);
-    exit;
-}
-
-// Fallback for unknown routes
+// Fallback
 http_response_code(404);
-echo json_encode(['error' => 'Route not found', 'path' => $path]);
-exit;
+echo json_encode(['error' => 'Route not found','path'=>$path]);
