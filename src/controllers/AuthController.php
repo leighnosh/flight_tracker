@@ -5,7 +5,7 @@ require_once __DIR__ . '/../utils/Response.php';
 class AuthController
 {
     // POST /api/auth/register
-    public static function register(PDO $pdo, array $body, array $config): void
+    public static function register(PDO $pdo, array $body): void
     {
         $email = trim(strtolower($body['email'] ?? ''));
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
