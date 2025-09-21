@@ -20,3 +20,11 @@ CREATE TABLE IF NOT EXISTS `flights` (
   INDEX `idx_origin_destination` (`origin`, `destination`),
   INDEX `idx_departure` (`departure`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Users table
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
